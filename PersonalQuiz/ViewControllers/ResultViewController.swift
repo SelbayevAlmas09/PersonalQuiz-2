@@ -3,7 +3,6 @@
 //  PersonalQuiz
 //
 //  Created by Alexey Efimov on 14.03.2022.
-//
 
 import UIKit
 
