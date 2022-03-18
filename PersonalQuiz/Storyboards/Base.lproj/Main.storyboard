@@ -334,7 +334,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="backNavigationItem" destination="fIC-rH-imF" id="AHN-vj-p4y"/>
                         <outlet property="descriptionLabel" destination="oey-xn-zq6" id="i2d-MZ-5tx"/>
                         <outlet property="titleLabel" destination="qKU-5H-sDw" id="HHo-aX-oa6"/>
                     </connections>
