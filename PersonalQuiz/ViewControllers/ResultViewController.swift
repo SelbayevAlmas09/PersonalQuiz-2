@@ -13,8 +13,6 @@ class ResultViewController: UIViewController {
     
     var answersChosen: [Answer]!
     
-    private var animalsCount: [Animal: Int] = [:]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
@@ -26,7 +24,8 @@ class ResultViewController: UIViewController {
     }
     
     private func getResultAnimal(Answers: [Answer]) -> Animal {
-        let animals = answersChosen.map {$0.animal}
+        var animalsCount: [Animal: Int] = [:]
+        let animals = answersChosen.map { $0.animal }
         
         for animal in animals {
             if !animalsCount.keys.contains(animal) {
